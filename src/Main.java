@@ -25,6 +25,7 @@ public class Main {
             try {
                 Thread. sleep (2000);
             } catch (InterruptedException e) {
+                System.out.println("The time is out");
                 e.printStackTrace();
             }
         }
